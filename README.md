@@ -1,4 +1,7 @@
 # Caça-Palavras — Laravel
+## Jogar online
+
+👉 **[Clique aqui para jogar](https://caca-palavras-laravel.onrender.com/)**
 
 Jogo de caça-palavras desenvolvido em **Laravel** e **PostgreSQL**, com geração dinâmica de tabuleiro, múltiplos níveis de dificuldade e mais de 300 palavras organizadas por tema.
 
@@ -19,13 +22,8 @@ Jogo de caça-palavras desenvolvido em **Laravel** e **PostgreSQL**, com geraç�
 ### Tela inicial
 <img width="571" height="626" alt="image" src="https://github.com/user-attachments/assets/c7d27638-ba46-41c0-a5fc-93218deb32e2" />
 
-
-### Jogo em andamento
-<img width="930" height="542" alt="image" src="https://github.com/user-attachments/assets/659d40b5-ff52-4c85-a201-f9b3c13148b2" />
-
-
 ### Tela de vitória
-<img width="912" height="712" alt="image" src="https://github.com/user-attachments/assets/a1048e12-4fe1-4ac8-ab22-c58c18e34156" />
+<img width="912" height="712" alt="image" src="https://github.com/user-attachments/assets/ee3090a0-b94e-4c0f-b78e-358fc589068d" />
 
 ## Tecnologias utilizadas
 
@@ -53,25 +51,25 @@ O núcleo do jogo é a classe `App\Services\GeradorCacaPalavras`, responsável p
 
 ### Passos
 
-# Clonar o repositório
+## Clonar o repositório
 git clone https://github.com/ArielleSousa/caca-palavras-laravel.git
 cd caca-palavras-laravel
 
-# Instalar dependências
+## Instalar dependências
 composer install
 
-# Configurar ambiente
+## Configurar ambiente
 cp .env.example .env
 php artisan key:generate
 
-# Configurar o banco no .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
-# Criar o banco de dados no PostgreSQL antes de rodar as migrations
+## Configurar o banco no .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+## Criar o banco de dados no PostgreSQL antes de rodar as migrations
 
-# Rodar migrations e popular o banco
+## Rodar migrations e popular o banco
 php artisan migrate
 php artisan db:seed --class=PalavraSeeder
 
-# Subir o servidor
+## Subir o servidor
 php artisan serve
 
 Acesse: `http://localhost:8000`
