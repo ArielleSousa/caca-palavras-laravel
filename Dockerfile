@@ -1,11 +1,11 @@
 FROM php:8.3-fpm-alpine
 
 RUN apk add --no-cache \
-    nginx supervisor git curl \
+    nginx supervisor git curl unzip \
     libpng-dev libjpeg-turbo-dev freetype-dev \
-    libxml2-dev postgresql-dev oniguruma-dev \
+    libxml2-dev postgresql-dev oniguruma-dev libzip-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo pdo_pgsql pgsql mbstring xml gd
+    && docker-php-ext-install pdo pdo_pgsql pgsql mbstring xml gd zip bcmath
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
