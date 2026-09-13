@@ -61,9 +61,3 @@ php artisan db:seed --class=PalavraSeeder
 php artisan serve
 
 Acesse: `http://localhost:8000`
-
-
-## 👤 Autora
-
-**Arielle Sousa**
-[LinkedIn](#) · [GitHub](https://github.com/ArielleSousa)
