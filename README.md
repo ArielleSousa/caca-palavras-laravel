@@ -2,6 +2,7 @@
 
 Jogo de caça-palavras desenvolvido em **Laravel** e **PostgreSQL**, com geração dinâmica de tabuleiro, múltiplos níveis de dificuldade e mais de 300 palavras organizadas por tema.
 
+
 > Projeto desenvolvido como estudo prático de Laravel, lógica de algoritmos e organização de código em camadas (Models, Services, Controllers).
 
 ## Funcionalidades
@@ -12,6 +13,19 @@ Jogo de caça-palavras desenvolvido em **Laravel** e **PostgreSQL**, com geraç�
 - Feedback visual de acerto (verde) e erro (vermelho)
 - Cronômetro em tempo real
 - Tela de vitória com botão para **jogar novamente** (gera um novo tabuleiro automaticamente)
+- 
+## Demonstração
+
+### Tela inicial
+<img width="571" height="626" alt="image" src="https://github.com/user-attachments/assets/c7d27638-ba46-41c0-a5fc-93218deb32e2" />
+
+
+### Jogo em andamento
+<img width="930" height="542" alt="image" src="https://github.com/user-attachments/assets/659d40b5-ff52-4c85-a201-f9b3c13148b2" />
+
+
+### Tela de vitória
+<img width="912" height="712" alt="image" src="https://github.com/user-attachments/assets/a1048e12-4fe1-4ac8-ab22-c58c18e34156" />
 
 ## Tecnologias utilizadas
 
